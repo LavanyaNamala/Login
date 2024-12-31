@@ -1,17 +1,17 @@
 
-let username = ["alice", "bob", "charlie","alic"];  // Example username list
+let username = ["alice", "pop", "bob", "charlie","alic"];  // Example username list
 function signup(str) {
   let flag=false
 
-     username.map((ele,i) => {
+     username.forEach((ele,i) => {
       if(ele==str){
-        console.log("already regi")
+        console.log("already registered")
         flag=true
 }
 })
 if(flag==false){
   username.push(str)
-  console.log("Signup")
+  console.log("Signup Sucessfu;")
 }
 }
   signup("Lavnya")  
